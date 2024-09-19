@@ -1,5 +1,5 @@
 const el = id => document.getElementById(id);
-const FPS = 30;
+const FPS = 120;
 
 function toTextStyle(text,style="",id) { return `<text-style text="${style}" ${id ? `id="${id}"` : ""}>${text}</text-style>` }
 function toColoredText(text,color="") { return `<text-style style="color:${color}">${text}</text-style>` }
